@@ -33,8 +33,8 @@ def plot_availability_curve(mttf, delta_t, mu_c, mu_p, c, t_final):
 
     ax.grid()
 
-    fig.savefig('plots/availabity.png')
     plt.legend()
+    fig.savefig('plots/availabity.png')
     plt.show()
 
 def plot_reliability_curve(mttf, delta_t, mu_c, mu_p, c, t_final):
